@@ -8,12 +8,21 @@
           {
             alert("窗口測試")
           }
+          whyclickme()
+          {
+            alert("按我幹嘛")
+          }
+          
     </script>
 </head>
 
 <!--網頁主體-->
 <html>
-    <body>
+    <body onclick="whyclickme()">
+        <h1 align="center" >狗哥的網頁</h1>
         <button class="button" onclick="display_alert()">按鈕測試</button>
+        <p>
+            <iframe class="mainframe" name="mainiframe" src="web/main.html"></iframe>
+        </p>
     </body>
 </html>

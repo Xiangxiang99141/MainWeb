@@ -1,3 +1,8 @@
+.mainframe {
+    width: 300px;
+    height: 300px;
+    outline: 10cm;
+}
 .button { 
     font-size: 14px;
     padding: 10px;
